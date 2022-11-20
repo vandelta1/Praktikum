@@ -1,0 +1,15 @@
+
+.box-3{
+  position: relative;
+  flex: 1;
+  width: 50%;
+  height: 100vh;
+  padding: 50px;
+  color: #fff;
+}
+
+@media screen and (max-width: 850px){
+.box-1{
+  width: 100%;
+  padding: 25px 0px;
+}

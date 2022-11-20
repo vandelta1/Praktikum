@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<link rel="stylesheet" href="form.css">
+<body>
+  <div class="container">
+    <div class="isiform">
+      <h3>Daftarkan Diri Anda Menjadi Wiibu >-<</h3>
+      <form>
+        <div class="row-25">
+          <p>Siapa Nama Anda?</p>
+          <input type="text" id="name" name="Nama" required> 
+        </div>
+          <div class="row-25">
+            <p>Apa Gender Anda?</p>
+            <label for="Laki">Laki-Laki</label>
+            <input type="radio" id="Gender" name="Gender"> 
+            <label for="Cewek">Perempuan</label>
+            <input type="radio" id="Gender" name="Gender"> 
+          </div>
+          <div class="row-25">
+           <p>Alamat Rumah Anda?</p>
+            <input type="text" id="name" name="Nama" required> 
+         </div>
+          <div class="row-25">
+           <p>Dari Negara mana?</p>
+            <select name="negara" required>
+              <option value="ina">Indonesia</option>
+              <option value="bks">Bekasi</option>
+              <option value="isk">Isekai</option>
+              <option value="jpn">Jepang</option>
+            </select>
+         </div>
+         <div class="row-25">
+           <p>Email anda?</p>
+            <input type="email" id="email" name="Nama" required> 
+         </div>
+          <div class="row-25">
+           <p>Lampirkan foto cosplay anda</p>
+            <input type="file" id="file" name="Nama" required> 
+         </div>
+          <div class="row-25">
+           <p>Masukan alasan anda menjadi wibu?</p>
+              <textarea id="alasan" name="alasan" rows="5" cols="50" required></textarea>
+         </div>
+         <input type="submit" value="Submit">
+      </form>
+
+  </div>
+  </div>
+</body>
+</html>

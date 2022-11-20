@@ -1,0 +1,17 @@
+tr, td, th{
+  padding: 10px;
+  width: 25%;
+}
+  
+td{
+  background-color: #262626;
+}
+
+th{
+  background-color: #ffc460;
+  color: #262626;
+}
+
+table{
+  width: 100%;
+}

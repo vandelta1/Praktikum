@@ -1,0 +1,72 @@
+/*video awal*/
+.co{
+  padding: 25px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bgin{
+  background-image: url('https://localhost/vandelta1/Img/Portfolio/Gambar-2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.co video{
+  width: 60%;
+  transition: 0.5s all;
+}
+
+.co video:hover{
+  border-radius: 10px;
+  width: 65%;
+
+}
+
+video{
+  border-radius: 10px;
+}
+/*dalam body*/
+.quote{
+  display: inline-block;
+  padding: 10px ;
+  font-style: italic;
+  border-width: 0 0 0 1px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-color: #ffd447;
+  border-style: solid;
+}
+
+.custom img{
+  border-radius: 0 0 10px 0;
+}
+.box-1{
+  position: relative;
+  flex: 1;
+  width: 50%;
+  padding: 50px;
+  color: #fff;
+}
+
+@media screen and (max-width: 850px){
+.box-1{
+  width: 100%;
+  padding: 25px 0px;
+}
+.co video{
+  border-radius: 5px;
+  width: 90%;
+}
+
+.co video:hover{
+  border-radius: 5px;
+  width: 100%;
+}
+
+
+}
+
+@media screen and (max-width: 550px){
+
+
+}
